@@ -10,5 +10,10 @@ class Proverb < ActiveRecord::Base
   # Alphabetical by translation
   scope :alphabetical, order('translation')
   scope :active, where('active = ?', true)
+
+
+
+
+  
   
 end
